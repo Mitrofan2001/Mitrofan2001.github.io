@@ -1,0 +1,270 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Figma - Business Weekly UI | Mitrofan.tw</title><meta name="keywords" content="Figma"><meta name="author" content="Mitrofan.tw"><meta name="copyright" content="Mitrofan.tw"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="商業週刊App UI介面改良">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Figma - Business Weekly UI">
+<meta property="og:url" content="https://mitrofan2001.github.io/2022/06/21/2022_06_21_Figma_UI_Final/index.html">
+<meta property="og:site_name" content="Mitrofan.tw">
+<meta property="og:description" content="商業週刊App UI介面改良">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://mitrofan2001.github.io/img/Post_cover/UI_UX.jpg">
+<meta property="article:published_time" content="2022-06-20T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-08-09T16:00:00.000Z">
+<meta property="article:author" content="Mitrofan.tw">
+<meta property="article:tag" content="Figma">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mitrofan2001.github.io/img/Post_cover/UI_UX.jpg"><link rel="shortcut icon" href="/img/Mit%20Logo.png"><link rel="canonical" href="https://mitrofan2001.github.io/2022/06/21/2022_06_21_Figma_UI_Final/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Figma - Business Weekly UI',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-08-10 00:00:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/personal.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">7</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="https://mitrofan2001.github.io/"><i class="fa-fw fas fa-flag"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-archive"></i><span> Archives</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-box-open"></i><span> Posts</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://open.spotify.com/playlist/18gIjLQ4iVq75WoYPXsiZ7?si=1d7bad0a44564fed/"><i class="fa-fw fas fa-hashtag"></i><span> Music</span></a></li><li><a class="site-page child" href="/movie/"><i class="fa-fw fas fa-hashtag"></i><span> Movie</span></a></li><li><a class="site-page child" href="/Book/"><i class="fa-fw fas fa-hashtag"></i><span> Book</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Schedule/"><i class="fa-fw fas fa-clock-rotate-left"></i><span> Schedule</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/Post_cover/UI_UX.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Mitrofan.tw</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="https://mitrofan2001.github.io/"><i class="fa-fw fas fa-flag"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-archive"></i><span> Archives</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-box-open"></i><span> Posts</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://open.spotify.com/playlist/18gIjLQ4iVq75WoYPXsiZ7?si=1d7bad0a44564fed/"><i class="fa-fw fas fa-hashtag"></i><span> Music</span></a></li><li><a class="site-page child" href="/movie/"><i class="fa-fw fas fa-hashtag"></i><span> Movie</span></a></li><li><a class="site-page child" href="/Book/"><i class="fa-fw fas fa-hashtag"></i><span> Book</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/Schedule/"><i class="fa-fw fas fa-clock-rotate-left"></i><span> Schedule</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Figma - Business Weekly UI</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2022-06-20T16:00:00.000Z" title="Created 2022-06-21 00:00:00">2022-06-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2022-08-09T16:00:00.000Z" title="Updated 2022-08-10 00:00:00">2022-08-10</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Note-Figma/">Note_Figma</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Figma - Business Weekly UI"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="note flat"><p>繳交截止前12個小時通宵搞出來的東西</p>
+</div>
+
+<h2 id="Work-Title"><a href="#Work-Title" class="headerlink" title="Work Title."></a><strong>Work Title.</strong></h2><p><a target="_blank" rel="noopener" href="https://www.figma.com/file/zPyybCRGoDgjsGggd3SJWH/1082042_Final?node-id=0:1"><strong>Figma - Business Weekly UI</strong></a></p>
+<h2 id="Mind-of-the-Work"><a href="#Mind-of-the-Work" class="headerlink" title="Mind of the Work"></a><strong>Mind of the Work</strong></h2><p>基本上這個是最後一個的期末作業，因為拖延+前面的作業，想說乾脆放掉這半個期末作業，</p>
+<p>不過在deadline前12小時越想越不對，之前有個超優秀學長僅只因為這項作業沒註記名字最後被當；</p>
+<p>那個當下我只想到 “我必須趕在最後繳交期限前12小時搞定他。”</p>
+<p>本次期末作業以改良參考的APP作為主題，需要去找APP並結合所學改良他，使User更方便使用、瀏覽資訊</p>
+<p>而其中我主要參考了 商周+ App 、天下雜誌 、 今周刊以及Dcard</p>
+<p>並以商周+ App 作為強化介面設計對象加以更改</p>
+<p>前三者主要參考其內容配置、顏色搭配(皆以紅色為底</p>
+<p>而Dcard部分則是參考其下方 fixed的功能選單</p>
+<hr>
+<h2 id="UX-research-before-design"><a href="#UX-research-before-design" class="headerlink" title="UX research before design"></a><strong>UX research before design</strong></h2><p>來不及做麻(攤手)</p>
+<h2 id="UI-Design"><a href="#UI-Design" class="headerlink" title="UI Design"></a><strong>UI Design</strong></h2><p><img src="/img/0621/figma_final.PNG"></p>
+<hr>
+<h2 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use"></a>How to use</h2><p>經logo進入頁面後，會來到每日推薦文摘</p>
+<p>並可以透過下方欄位進行左右切換至(熱議文章 &#x2F; 看版討論)</p>
+<p>或者至會員專區閱讀出刊內容</p>
+<p>若需要設定、也可以至類別欄位最右側進行帳務檢查及功能設置</p>
+<h2 id="Figma-tips"><a href="#Figma-tips" class="headerlink" title="Figma tips"></a>Figma tips</h2><ol>
+<li><p><code> input textbox call keyboard</code><br>點擊你要設定要打字的框框點開右側的phototype，把interaction detials的 none 增加 on tap，下方將出現彈出方式並選擇你要彈出的鍵盤樣式，一切搞定後，可以在最下方動畫自行決定動畫(來自的方向跟速度等)。</p>
+</li>
+<li><p><code>記得增加每個頁面的返回鍵</code></p>
+</li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Mitrofan.tw</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://mitrofan2001.github.io/2022/06/21/2022_06_21_Figma_UI_Final/">https://mitrofan2001.github.io/2022/06/21/2022_06_21_Figma_UI_Final/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">never give up</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Figma/">Figma</a></div><div class="post_share"><div class="social-share" data-image="/img/Post_cover/UI_UX.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/06/16/2022_06_16_UnityHW/"><img class="next-cover" src="/img/Post_cover/unity.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Unity - Mixed Reality Final Project</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2022/04/30/2022_05_01_Figma_UI_Work1/" title="Figma - Singer App UI/UX"><img class="cover" src="/img/Post_cover/UI_UX.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-30</div><div class="title">Figma - Singer App UI/UX</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/personal.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Mitrofan.tw</div><div class="author-info__description">失物招領處有我的快樂嗎</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">7</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Mitrofan2001"><i class="fab fa-github"></i><span>Follow Me ~</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Mitrofan2001" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://www.kaggle.com/mitrofantw" target="_blank" title="Kaggle"><i class="fab fa-kaggle"></i></a><a class="social-icon" href="https://www.linkedin.com/in/peter-lu-66416520b/" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a><a class="social-icon" href="mailto:peterlu900203i@gmail.com" target="_blank" title="Gmail"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://line.me/ti/p/My7jlbPKSD" target="_blank" title="Line"><i class="fab fa-line"></i></a><a class="social-icon" href="https://www.instagram.com/po_long2001/" target="_blank" title="IG"><i class="fab fa-instagram"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">我需要那個酷酷的睡眠...........</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Work-Title"><span class="toc-text">Work Title.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mind-of-the-Work"><span class="toc-text">Mind of the Work</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#UX-research-before-design"><span class="toc-text">UX research before design</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#UI-Design"><span class="toc-text">UI Design</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#How-to-use"><span class="toc-text">How to use</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Figma-tips"><span class="toc-text">Figma tips</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/06/16/2022_06_16_UnityHW/" title="Unity - Mixed Reality Final Project"><img src="/img/Post_cover/unity.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity - Mixed Reality Final Project"/></a><div class="content"><a class="title" href="/2022/06/16/2022_06_16_UnityHW/" title="Unity - Mixed Reality Final Project">Unity - Mixed Reality Final Project</a><time datetime="2022-08-10T16:00:00.000Z" title="Updated 2022-08-11 00:00:00">2022-08-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/06/21/2022_06_21_Figma_UI_Final/" title="Figma - Business Weekly UI"><img src="/img/Post_cover/UI_UX.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Figma - Business Weekly UI"/></a><div class="content"><a class="title" href="/2022/06/21/2022_06_21_Figma_UI_Final/" title="Figma - Business Weekly UI">Figma - Business Weekly UI</a><time datetime="2022-08-09T16:00:00.000Z" title="Updated 2022-08-10 00:00:00">2022-08-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/06/11/2022_06_11_Auschwitz/" title="Unity - 110-2 Game Ptoject 'Auschwitz Zoo'"><img src="/img/Post_cover/unity.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity - 110-2 Game Ptoject 'Auschwitz Zoo'"/></a><div class="content"><a class="title" href="/2022/06/11/2022_06_11_Auschwitz/" title="Unity - 110-2 Game Ptoject 'Auschwitz Zoo'">Unity - 110-2 Game Ptoject 'Auschwitz Zoo'</a><time datetime="2022-06-10T16:00:00.000Z" title="Updated 2022-06-11 00:00:00">2022-06-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/08/2022_05_07_Kaggle_practice/" title="Kaggle - Tiny Demo for HW"><img src="/img/Post_cover/Kaggle.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Kaggle - Tiny Demo for HW"/></a><div class="content"><a class="title" href="/2022/05/08/2022_05_07_Kaggle_practice/" title="Kaggle - Tiny Demo for HW">Kaggle - Tiny Demo for HW</a><time datetime="2022-05-10T16:00:00.000Z" title="Updated 2022-05-11 00:00:00">2022-05-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/10/2022_05_10_UnityHW%20copy/" title="Unity - Mixed Reality 3rd HW"><img src="/img/Post_cover/unity.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Unity - Mixed Reality 3rd HW"/></a><div class="content"><a class="title" href="/2022/05/10/2022_05_10_UnityHW%20copy/" title="Unity - Mixed Reality 3rd HW">Unity - Mixed Reality 3rd HW</a><time datetime="2022-05-10T16:00:00.000Z" title="Updated 2022-05-11 00:00:00">2022-05-11</time></div></div></div></div></div></div></main><footer id="footer" style="background: #53565C"><div id="footer-wrap"><div class="copyright">&copy;2022 By Mitrofan.tw</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">" Practices makes pefects "</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="Chat"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk(Object.assign({
+      clientID: '2b15c2b3c0ce08d92306',
+      clientSecret: '885062a7575e04b3815be96e25b0866c943e8e1d',
+      repo: 'mitrofan2001.github.io',
+      owner: 'Mitrofan2001',
+      admin: ['Mitrofan2001'],
+      id: 'fb4a65d0eeb6eb6b5b31c2b19127ff8c',
+      updateCountCallback: commentCount
+    },null))
+
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Gitalk' === 'Gitalk' || !true) {
+  if (true) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script>((window.gitter = {}).chat = {}).options = {
+  disableDefaultChat: true,
+};
+document.addEventListener('gitter-sidecar-ready', (e) => {
+  const GitterChat = e.detail.Chat
+  let chat
+
+  function initGitter () {
+    chat = new GitterChat({
+      room: 'chat_page/community',
+      activationElement: '#chat_btn'
+    });
+  }
+
+  initGitter()
+
+  if (false) {
+    document.addEventListener('pjax:complete', () => {
+      chat.destroy()
+      initGitter()
+    })
+  }
+
+})</script><script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async="async" defer="defer"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
