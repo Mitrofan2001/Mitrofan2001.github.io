@@ -1,0 +1,86 @@
+menu:
+  Home: / || fas fa-flag
+  Archives:
+    Archives: /archives/ || fas fa-box-open
+    Tags: /tags/ || fas fa-tags
+    Categories: /categories/ || fas fa-folder-open
+  List||fas fa-list:
+    Music: https://open.spotify.com/playlist/18gIjLQ4iVq75WoYPXsiZ7?si=1d7bad0a44564fed/ || fas fa-hashtag
+    Movie: /movie/ || fas fa-hashtag
+    Book: /Book/ || fas fa-hashtag
+  Schedule: /Schedule/ || fas fa-clock-rotate-left
+  Link: /link/ || fas fa-link
+  About: /about/ || fas fa-heart
+
+avatar:
+  img: /img/personal.jpg
+  effect: false
+
+favicon: /img/Mit Logo.png
+
+index_img: /img/pee.gif
+
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - 一山還有一山高, 蘿蔔還有蘿蔔糕
+    - 夜路走多了 總匯三明治
+    - 人比人 氣死人, 蛋餅比蛋餅 起司蛋餅
+    - 叫天天不應 叫哥哥布林
+    - 三十而立 四十大盜
+    - 本是同根生 香煎牛小排
+    - 兒孫自有兒孫福 螺絲自有羅斯福
+    - 鳩佔鵲巢 檸檬茶
+    - 麻雀雖小 武藏小次郎
+    - 無心插柳 柳橙汁
+    - 一人做事 薏仁湯
+    - 似曾相似 四神湯
+
+footer:
+  owner:
+    enable: true
+    since: 2022
+  custom_text: '" Practices makes pefects "'
+
+social:
+  fab fa-github: https://github.com/Mitrofan2001 || Github
+  fab fa-kaggle: https://www.kaggle.com/mitrofantw || Kaggle
+  fab fa-linkedin: https://www.linkedin.com/in/peter-lu-66416520b/ || Linkedin
+  fas fa-envelope: mailto:peterlu900203i@gmail.com || Gmail
+  fab fa-line: https://line.me/ti/p/My7jlbPKSD || Line
+  fab fa-instagram: https://www.instagram.com/po_long2001/ || IG
+
+highlight_theme: lightbulb
+
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: both
+
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  card_author:
+    enable: true
+    description: 失物招領處有我的快樂嗎
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me ~
+      link: https://github.com/Mitrofan2001
+  card_announcement:
+    enable: true
+    content: 我需要那個酷酷的睡眠...........
+
+gitalk:
+  enable: false
+
+inject:
+  head:
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+    - <link rel="stylesheet" href="/legacy/old-site.css">
+    - <link rel="stylesheet" href="/legacy/legacy-fixes.css">
