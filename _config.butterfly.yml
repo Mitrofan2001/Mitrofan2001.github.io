@@ -59,6 +59,11 @@ cover:
   archives_enable: true
   position: both
 
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
 aside:
   enable: true
   hide: false
