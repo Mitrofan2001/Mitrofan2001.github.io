@@ -6,6 +6,7 @@ tags: ["JavaScript"]
 categories: ["Leetcode JaveScript"]
 cover: "https://static.leetcode-cn.com/cn-legacy-assets/images/LeetCode_Sharing.png"
 comments: false
+permalink: /2022/04/28/2022_04_28_Leetcode_Js/
 ---
 自己選的路，跪著也要走完
 
@@ -57,5 +58,6 @@ var twoSum = function(nums, target) {
 - size 取得內容成員總數 map.size();
 
 Example:
+![](/img/Post_pic/0501.PNG)
 
 - 資料連結 [ES6 總整理](https://ithelp.ithome.com.tw/articles/10197716#:~:text=ES6%20%E5%85%B6%E5%AF%A6%E6%98%AF%E4%B8%80%E5%80%8B%E6%B3%9B,%E4%B9%9F%E5%B0%B1%E6%98%AFES6%20%E8%AA%9E%E8%A8%80%E6%A8%99%E6%BA%96%E3%80%82) [let,var 差異](https://totoroliu.medium.com/javascript-var-let-const-%E5%B7%AE%E7%95%B0-e3d930521230)

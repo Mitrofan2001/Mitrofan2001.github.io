@@ -6,6 +6,7 @@ tags: ["Figma"]
 categories: ["Note Figma"]
 cover: "/img/Post_cover/UI_UX.jpg"
 comments: false
+permalink: /2022/04/30/2022_05_01_Figma_UI_Work1/
 ---
 想得到自己想要的東西，就要讓自己配的上它
 
@@ -17,15 +18,23 @@ comments: false
 
 在設計上，我想走個粉紅泡泡、少女風的感覺(雖然後面直接變調，，期待使用者可以感受活潑的氛圍，但卻忽略了配色過於花俏的問題，容易掩蓋焦點、而Footer的功能排列也是稍微可惜的沒有做的更直觀，而由於進度壓力最後也只將功能草草做完；不過總體而言，這次的練習是個相當棒的經驗。
 
+---
+
 ## UX research before design
 
 ### 1.同理心地圖：
+![](/img/0508/pika.png)
 
 ### 2.服務藍圖
+![](/img/0508/serve.PNG)
 
 ### 3.使用者旅程地圖：
+![](/img/0508/usermap.PNG)
 
 ## UI Design
+![](/img/0508/map.PNG)
+
+---
 
 ## Figma tips
 

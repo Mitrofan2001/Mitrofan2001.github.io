@@ -6,6 +6,7 @@ tags: ["Figma"]
 categories: ["Note Figma"]
 cover: "/img/Post_cover/UI_UX.jpg"
 comments: false
+permalink: /2022/06/21/2022_06_21_Figma_UI_Final/
 ---
 繳交截止前12個小時通宵搞出來的東西
 
@@ -29,10 +30,15 @@ comments: false
 
 而Dcard部分則是參考其下方 fixed的功能選單
 
+---
+
 ## UX research before design
 來不及做麻(攤手)
 
 ## UI Design
+![](/img/0621/figma_final.PNG)
+
+---
 
 ## How to use
 經logo進入頁面後，會來到每日推薦文摘

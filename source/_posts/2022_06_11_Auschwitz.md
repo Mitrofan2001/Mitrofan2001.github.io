@@ -6,6 +6,7 @@ tags: ["Unity_Game"]
 categories: ["Note Unity"]
 cover: "/img/0611/Main.jpg"
 comments: false
+permalink: /2022/06/11/2022_06_11_Auschwitz/
 ---
 小畢製 幹你的
 
@@ -14,6 +15,8 @@ comments: false
 
 ## Mind of the Work
 從發想上來說，老師的題目是’欺騙’，因此，在討論過後，我們希望以故事中善意的的欺騙做發揮。其中，我們取材自’雙生夢魘’；作者 Affinity Konar，取材自真實事件，內容講述們格勒醫生在集中營對多位雙胞胎做人體實驗，本遊戲的主角史塔莎、貝兒則是其中並存活下來的眾多受害者之一。
+
+---
 
 ## Some Prepare work before we start to make this
  遊戲設定：
@@ -34,17 +37,28 @@ comments: false
 
 - 背景故事 二戰期間，納粹當中有一部份軍醫，並非作為醫治他人的天使存在，而是將人體拿來做實驗的惡魔。尤其在惡名昭著的奧茲維辛營，門格勒醫生特別喜歡以多胞胎為人體實驗的對照物，並蒐藏實驗器官，因此，他的實驗室甚至獲得別稱：「門格勒的動物園」
 
-- 遊玩流程：
+- 遊玩流程： ![](/img/0611/%E9%81%8A%E7%8E%A9%E6%B5%81%E7%A8%8B.PNG)
 
-- 破關流程：
+- 破關流程： ![](/img/0611/%E7%A0%B4%E9%97%9C%E6%B5%81%E7%A8%8B.PNG)
 
 ## Photo on gaming
+![](/img/0611/camp.PNG)
+
+![](/img/0611/outside.jpg)
+
+![](/img/0611/office.jpg)
+
+![](/img/0611/resturant.jpg)
+
+![](/img/0611/lv3.PNG)
 
 ## How to use
 
 - 下載後解壓縮
 
 - 點開 demo20220314.exe 便可以玩囉
+
+---
 
 ## Unity tips
 

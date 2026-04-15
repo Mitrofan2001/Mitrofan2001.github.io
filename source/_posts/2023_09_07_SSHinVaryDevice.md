@@ -6,6 +6,7 @@ tags: ["FrontEnd - github"]
 categories: ["Note github"]
 cover: "/img/webimg/github-cover.jpg"
 comments: false
+permalink: /2023/09/07/2023_09_07_SSHinVaryDevice/
 ---
 In Aetheras Day1   i got a new Macbook pro and big Monitor…but i have never used mac to develop any project. 
 
